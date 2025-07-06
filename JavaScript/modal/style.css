@@ -1,0 +1,18 @@
+#myModal {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6); /* Black with transparency */
+    border: 2px solid red;
+}
+.modal-content {
+    position: relative;
+    width: 80%;
+    margin: 10% auto;
+    max-width: 500px;
+    background-color: #fff;
+    border: 2px solid blue;
+}
